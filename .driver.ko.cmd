@@ -1,0 +1,1 @@
+cmd_/home/capeller/Study/ioctl/driver.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/capeller/Study/ioctl/driver.ko /home/capeller/Study/ioctl/driver.o /home/capeller/Study/ioctl/driver.mod.o ;  true
